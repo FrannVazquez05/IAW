@@ -7,14 +7,12 @@
 </head>
 <body>
 	<?php
-		$i = 1;
-		$n = 50;   
-		$impar = 1; 
-		while ( $i <= $n){
-			echo "$impar, ";
-			$i = $i + 1;
-			$impar = $impar + 2;
+		$m = 0;
+		for ($i = 1; $i <= 50; $i++) {
+			$m = $i * $i;	
+			echo "$i x $i = $m" . "<br>";
 		}
+		
 	 ?>
 
 </body>
